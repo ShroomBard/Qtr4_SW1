@@ -1,0 +1,38 @@
+body {
+	background-image: url(bg.gif);
+	background-size: cover;
+	text-align: center;
+}
+.container {
+	margin-top: 50px;
+	text-align: center;
+	background-color: rgba(255, 255, 255,0.9);
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+p {
+	text-align: center;
+}
+.grow {
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+.row {
+	margin-top: 10px;
+}
+img {
+	height: 300px;
+	width: auto;
+}
+.white {
+	background-color: rgba(38, 37, 37, 0.9);
+	color: white;
+}
+
